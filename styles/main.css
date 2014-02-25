@@ -1,0 +1,220 @@
+* {
+	-webkit-box-sizing: border-box;
+	   -moz-box-sizing: border-box;
+	        box-sizing: border-box;
+}
+
+body {
+	font-size: 18px;
+	font-family: 'Duru Sans', Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+h1 {
+	font-family: 'Krona One', "Lucida Sans Typewriter", "Lucida Console", Monaco, "Bitstream Vera Sans Mono", monospace;
+	font-size: 36px;
+	font-weight:normal;
+	text-transform: uppercase;
+
+}
+
+h2 {
+	font-family: 'Krona One', "Lucida Sans Typewriter", "Lucida Console", Monaco, "Bitstream Vera Sans Mono", monospace;
+	font-size: 24px;
+	font-weight:normal;
+	text-transform: uppercase;
+}
+
+.container {
+	width: 1280px;
+	margin: 0 auto;
+}
+
+
+/* Header starts */
+header {
+	background-image: url('../images/image1.png');
+	width: 100%;
+	height: 720px;
+}
+
+nav {
+	width: 100%;
+	background-color: rgba(0,0,0,0.30);
+	float: left;
+	height:140px;
+}
+
+#logo {
+	background-image: url('../images/logo.png');
+	width: 252px;
+	height: 92px;
+	margin-left:125px;
+	margin-top:25px;
+	float: left;
+
+}
+
+ul#topnav {
+	font-family: 'Krona One', sans-serif;
+	float: right;
+	padding-top: 45px;
+	padding-right: 145px;
+}
+
+ul#topnav li {
+	display: inline;
+	margin-left: 60px;
+}
+
+ul#topnav li a {
+	color: white;
+	text-decoration: none;
+}
+
+header h1 {
+	clear: both;
+	text-align: center;
+	color: #fff;
+	margin-top: 136px;
+	float: left;
+	width: 100%;h
+}
+
+
+.leftheader {
+	float:left;
+	padding-left: 140px;
+	padding-top: 25px;
+}
+
+.rightheader {
+	float:left;
+	padding-top: 230px;
+	padding-right: 50px;
+	font-family: 'Krona One', "Lucida Sans Typewriter", "Lucida Console", Monaco, "Bitstream Vera Sans Mono", monospace;
+	text-align: center;
+	font-size: 18px;
+	color: white;
+	text-transform: lowercase;
+}
+/* Header ends */
+
+
+/* About Us page */
+section#about {
+	background: white;
+	height: 760px;
+}
+
+section#about h1 {
+	padding-top:65px;
+	color: #5dcdb5;
+	text-align: center;
+}
+
+
+#leftabout {
+	padding-left: 95px;
+	width: 785px;
+	float: left;
+}
+
+#leftabout h2 {
+	text-transform: none;
+}
+
+#rightabout {
+	float: left;
+}
+
+#author {
+	font-family: 'Krona One', "Lucida Sans Typewriter", "Lucida Console", Monaco, "Bitstream Vera Sans Mono", monospace;
+	font-size: 18px;
+}
+/* About Us page ends */
+
+
+/* Menu page */
+aside#menu {
+	clear:both;
+	width: 100%;
+	height: 463px;
+	background-image: url('../images/image4.png');
+	float: left;
+}
+
+#menu h1 {
+	color: #f95971;
+	padding-top: 70px;
+	margin: 0px;
+	text-align: center;
+}
+
+#menu h2 {
+	text-align: center;
+	color: white;
+	margin-bottom: 0px;
+}
+
+#menu ul {
+	text-align: center;
+	font-size: 18px;
+	font-family: 'Duru Sans', Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+#menu ul#menu_main {
+	float: left;
+	margin-left: 115px;
+}
+
+#menu ul#menu_sides {
+	float: left;
+	margin-left: 110px;
+}
+
+#menu ul#menu_drinks {
+	float: left;
+	margin-left: 170px;
+}
+
+#menu ul li {
+	padding-top: 10px;
+}
+/* Menu page ends */
+
+
+
+
+/* footer */
+
+footer {
+	clear:both;
+	background-color: #252525;
+	height:285px;
+	width: 100%;
+	color: white;
+}
+
+footer #address:first-line {
+	font-family: 'Krona One', "Lucida Sans Typewriter", "Lucida Console", Monaco, "Bitstream Vera Sans Mono", monospace;
+	font-size: 24px;
+	font-weight:normal;
+	text-transform: uppercase;
+
+}
+
+
+#address {
+	float: left;
+	margin-top: 50px;
+	margin-left: 110px;
+	width: 820px;
+}
+
+#copyright {
+	float: right;
+	margin-top: 50px;
+	margin-right: 6px;
+}
+
+/* footer ends */
